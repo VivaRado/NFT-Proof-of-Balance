@@ -11,7 +11,7 @@ args = parser.parse_args()
 
 providers = {
     'etherscan': {
-        'key' : '2T6HZETIR2GPR28SSYFYJ5BPXYK1398K77',
+        'key' : '',
         'endpoint' : lambda: 'https://api.etherscan.io/api?module=contract&action=getabi&address=%s&apikey=%s'%(args.addr, providers['etherscan']['key'] )
     }
 }
