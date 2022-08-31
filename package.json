@@ -1,0 +1,25 @@
+{
+  "name": "nft-proof-of-balance",
+  "version": "1.0.0",
+  "description": "Check balance of NFT in wallet via Metamask and grant access.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VivaRado",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.7",
+    "handlebars.binding": "^0.4.0",
+    "jquery": "^3.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "tinybind": "^1.0.0",
+    "web3": "^1.7.5"
+  }
+}

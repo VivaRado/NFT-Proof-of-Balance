@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	{{> head }}
+</head>
+	<body class="nft_pob">
+
+		<main>
+			
+			{{{body}}}
+
+			<hr>
+			<section id="ui_condition"></section>
+			<hr>
+			<section id="ui_report"></section>
+			<section id="ui_test"></section>
+
+		</main>
+		
+		{{>condition}}
+		{{>report}}
+
+		<script type="text/javascript" src="/dist/web3.min.js"></script>
+		<script type="text/javascript" src="/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="/dist/handlebars.min.js"></script>
+		<script type="text/javascript" src="/dist/handlebars.binding.js"></script>
+		<script type="text/javascript" src="/dist/tinybind.min.js"></script>
+		<script type="text/javascript" src="/dist/axios.min.js"></script>
+		<script type="text/javascript" src="/public/js/controller.js"></script>
+
+	</body>
+</html>

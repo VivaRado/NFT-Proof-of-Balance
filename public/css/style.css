@@ -1,0 +1,106 @@
+body{
+	font-family: monospace;
+	margin: 0;
+	display: block;
+	background-color: #16161f;
+	color: #fff;
+}
+
+section {
+	position: relative;
+	clear: both;
+	margin: 1rem;
+}
+
+article {
+	padding: 2rem;
+}
+
+article ul {
+	padding-left: 0.7rem;
+}
+
+article ul li{
+	word-wrap: anywhere;
+	margin-bottom: 0.25rem;
+}
+
+main {
+	padding: 2rem;
+}
+
+main section article > span {
+	margin-bottom: 2rem;
+	display: block;
+}
+
+.answer {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+#ui_connect {}
+#ui_condition {}
+#ui_report {}
+
+.rep_gray,
+.rep_error,
+.rep_success,
+.rep_blue {
+	border-radius: 0.15rem;
+	padding: 0.1rem 0.25rem 0.1rem 0.25rem;
+}
+.rep_gray {
+	background-color: gray;
+}
+.rep_error {
+	color: #fff;
+	background-color: red;	
+}
+.rep_success {
+	color: #fff;
+	background-color: green;
+}
+.rep_blue {
+	color: #fff;
+	background-color: blue;
+}
+
+.btn_verify,
+.btn_connect {}
+
+.button_styled {
+	padding: 1rem 1.5rem;
+	text-align: center;
+	margin: 1rem 0 !important;
+	text-decoration: none;
+	font-size: 1rem;
+	cursor: pointer;
+	border: 2px solid #e3e6fa;
+	border-radius: 0.25rem;
+	background-color: #e3e6fa;
+	color: #333;
+	font-family: monospace;
+
+}
+
+.button_styled:hover {
+ 	background-color: #FFF;
+	color: black;
+	border: 2px solid #FFF;
+}
+
+h1 {
+	line-height: 4rem;
+	text-indent: 1rem;
+}
+h1::before {
+	display: block;
+	content: "";
+	background: url(/public/img/vrd_logo_wireframe.svg);
+	height: 4rem;
+	width: 4rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}

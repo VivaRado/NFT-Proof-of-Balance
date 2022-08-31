@@ -1,0 +1,22 @@
+<template id="tmp_condition" type="text/x-handlebars-template">
+    <article>
+        \{{#if 'content_exist' bind=true}}
+            <div class="answer">
+                \{{bind 'content_data'}}
+            </div>
+        \{{else}}
+            \{{#if 'web3' bind=true}}
+                
+                    <span>Please verify NFT balance: </span>
+                    <button class="btn_verify button_styled" role="button" onclick="InitVerification()">\{{bind 'msg_ver'}}</button>
+                
+
+            \{{else}}
+                
+                    <span>Please connect web3 wallet: </span>
+                    <button class="btn_connect button_styled" role="button">\{{bind 'msg_con'}}</button>
+                
+            \{{/if}}
+        \{{/if}}
+    </article>
+</template>
